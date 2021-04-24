@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --primary: rgb(153, 43, 26);
+    --light: rgb(238, 231, 231);
+    --dark: rgb(17, 5, 3);
+    --secondary: rgb(242, 222, 220);
+    --rockLobsterFont: 'Lobster', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: var(--primary);
+    color: var(--light);
+    height: 60px;
+}
+
+a,
+a:hover {
+    color: inherit;
+
+}
+
+nav ul li>a#logo_title {
+    font-family: 'Lobster', cursive;
+}
+
+.jumbotron {
+    background: url('https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center 64%;
+    background-size: cover;
+    height: 520px;
+    color: var(--secondary)
+}
+
+.jumbotron>a {
+    background-color: var(--dark);
+    color: var(--light);
+    font-size: .85rem;
+    transition: all .8s
+}
+.jumbotron > a:hover {
+    background-color: var(--secondary);
+    color: var(--dark);
+}
