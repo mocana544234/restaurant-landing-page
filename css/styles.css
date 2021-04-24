@@ -46,3 +46,9 @@ nav ul li>a#logo_title {
     background-color: var(--secondary);
     color: var(--dark);
 }
+
+/* MENU SECTION */
+section#menu > h2 {
+    font-family: var(--rockLobsterFont);
+    color: var(--primary);
+}
