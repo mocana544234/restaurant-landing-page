@@ -28,3 +28,21 @@ a:hover {
 nav ul li>a#logo_title {
     font-family: 'Lobster', cursive;
 }
+
+.jumbotron {
+    background: url('https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center 64%;
+    background-size: cover;
+    height: 520px;
+    color: var(--secondary)
+}
+
+.jumbotron>a {
+    background-color: var(--dark);
+    color: var(--light);
+    font-size: .85rem;
+    transition: all .8s
+}
+.jumbotron > a:hover {
+    background-color: var(--secondary);
+    color: var(--dark);
+}
